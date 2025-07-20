@@ -27,10 +27,10 @@ interface Message {
 
 // 📝 Configuration Constants
 const CONFIG = {
-  MAX_TOKENS: 10000,
-  MAX_INPUT_CHARS: 20000,
-  PREVIEW_LENGTH: 200,
-  API_TIMEOUT: 30000,
+  MAX_TOKENS: 40000,
+  MAX_INPUT_CHARS: 70000,
+  PREVIEW_LENGTH: 2000,
+  API_TIMEOUT: 300000,
 } as const
 
 // 🎨 Custom Markdown Components
